@@ -6,11 +6,11 @@ require 'serialize_json/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "serialize_json-rails"
   spec.version       = SerializeJson::Rails::VERSION
-  spec.authors       = ["Stepan Parunashvili"]
-  spec.email         = ["stepan.p@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.authors       = ["Travis Randolph", "Stepan Parunashvili"]
+  spec.email         = ["travisr004@gmail.com", "stepan.p@gmail.com"]
+  spec.description   = %q{Taking the serializeJSON library and converting it to a gem}
+  spec.summary       = %q{Favorite the original too: https://github.com/marioizquierdo/jquery.serializeJSON}
+  spec.homepage      = "https://github.com/travisR004"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

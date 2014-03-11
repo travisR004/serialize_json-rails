@@ -1,6 +1,6 @@
 # SerializeJson::Rails
 
-TODO: Write a gem description
+SerializeJSON for your rails application
 
 ## Installation
 
@@ -8,17 +8,12 @@ Add this line to your application's Gemfile:
 
     gem 'serialize_json-rails'
 
-And then execute:
-
-    $ bundle
+And then add the dependency in your application.js file
+	//= require serialize_json
 
 Or install it yourself as:
 
     $ gem install serialize_json-rails
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
