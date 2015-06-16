@@ -8,10 +8,11 @@ Add this line to your application's Gemfile:
 
     gem 'serialize_json-rails'
 
-And then add the dependency in your application.js file
-	//= require serialize_json
+And then add the dependency in your app/assets/javascripts/application.js file (after jQuery, since this plugin depends on it):
 
-Or install it yourself as:
+    //= require serialize_json
+
+Alternatively, you can install it yourself through the terminal:
 
     $ gem install serialize_json-rails
 
